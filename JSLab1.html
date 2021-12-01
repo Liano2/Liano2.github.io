@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+	<style>
+  	span{
+    	color:red;
+  	}
+		
+		body{
+			background-color:floralwhite;
+		}
+  </style>
+</head>
+
+<body>
+	<h2>Demo JavaScript Innertext</h2>
+
+	<h3>Demo1</h3>
+	<p id="demo1"> Hi </p>
+
+	<h3>Demo2</h3>
+
+	<p id="demo2"> Hi my name is </p>
+
+	<h3>Demo3</h3>
+
+ <p id="demo3"> Heya! </p>
+<br><br><br><br><br> 
+ <h3>MadLib - This the assignment</h3>
+
+<!-- Extend the Madlib so that it has at least 8 different words-->
+<p> Here's a madlib about a kid named <span id = "name1"> Julie</span> who had an imaginary friend <span id = "name2"> Mark</span>. One day the two of them went up a hill and found a pot of <span id = "noun1"> honey </span>. </p>
+
+<p> They then <span id= "noun2"> sold</span> the pot to the <span id="noun3"> bees. </span> </p>
+
+<p> But the bees <span id= "noun4"> denied</span> and <span id= "noun5"> declared</span> <span id="noun6"> war</span> on the humans.</p>
+
+	<script>  //The Javascript goes in this section below 
+    
+//demo 1 shows replacement of HTML text
+document.getElementById("demo1").innerHTML = "Hello World!";
+
+//demo 2 shows concatenation of HTML text
+document.getElementById("demo2").innerHTML += "dr og";
+
+//demo 3 shows a prompt which stores info as a variable
+//demo 3 shows a prompt which stores info as a variable
+
+var name = prompt("Please enter your name");
+var noun1 = prompt("Whats your favorite color?");
+var noun2 = prompt("Where do you live?");
+var noun3 = prompt("Whats your dream pet?");
+var noun4 = prompt("What do you want to be?");
+var noun5 = prompt("How many siblings do you have?");
+var name2 = prompt("Whats your middle name?");
+var noun6 = prompt("Whats your favorite holiday?");
+
+document.getElementById("demo3").innerHTML = "Hello " + name + "! How are you today?";
+
+
+
+//Put the Madlib JS Code below here. Extend this code so that asks for 8 different inputs and prints them all out
+
+/*
+var name1 = prompt("Give me a name");
+var name2 = prompt("Give me another name");
+var noun1 = prompt("Give me an appropriate object");
+
+document.getElementById("name1").innerHTML = name1;
+document.getElementById("name2").innerHTML = name2;
+document.getElementById("noun1").innerHTML = noun1;
+*/
+
+	</script>
+</body>
+</html>
