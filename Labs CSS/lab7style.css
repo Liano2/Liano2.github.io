@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* CSS Document */
+
+h1{
+  color:#483D8B;
+}
+
+h2{
+  color:#483D8B;
+  
+}
+
+body{
+  background-color: #FFEFD5;
+  border-style: double;
+  border-width: 9px;
+  border-color: #B22222;
+}

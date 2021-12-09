@@ -3,12 +3,86 @@
 <head>
 <meta charset="UTF-8">
 <title>Untitled Document</title>
+
+<style>
+
+	body{
+		background-color: floralwhite;
+	}
+		div {
+			width: 140px;
+			height: 140px;
+			border-style: dashed;
+			border-color: #d96459;
+			background-color: white;
+			transition: background-color 4s;
+      font-size:130px;
+		}
+
+    .Lclass{
+      transition: height 2s, width 2s;
+      color:orange;
+    }
+
+    .Lclass:hover{
+      background-color:navy;
+      transition-timing-function: ease-out;
+      width: 100px;
+      height: 300px;
+      transform:translateX(50px);
+    }
+
+    .Iclass{
+      transition: width 4s, height 4s;
+      color: pink;
+    }
+    
+    .Iclass:hover{
+      background-color:#738678;
+      height:200px;
+      width:200px;
+    }
+    
+    .Aclass {
+      transition:height 2s;
+      color: #ac3973;
+    }
+    
+    .Aclass:hover{
+      background-color:#fefbd8;
+      height: 300px;
+      transition-timing-function: ease-in-out;
+    }
+    
+    .Nclass {
+      transition:4s;
+      color:maroon;
+    }
+    
+    .Nclass:hover {
+      background-color:#79a6d2;
+      width:500px;
+      transition-timing-function:ease;
+      transform: rotate(360deg);
+    }
+
+	</style>
+
 </head>
 
 <body>
 	
 	
-<br>
+ <h2>Hover over each letter to see the transition effect:</h2>
+
+	<div class = "Lclass">L</div>
+  <div class = "Iclass">I</div>
+  <div class = "Aclass">A</div>
+  <div class = "Nclass">N</div>
+	
+	<br>
 <a href="../DigitalDesign.html"> Digital Design </a>
+	
+	
 </body>
 </html>
